@@ -1,0 +1,206 @@
+/* Overview */
+
+.flex-container {
+    display: flex;
+    
+}
+
+.flex-container .item-buy {
+    flex: 1 0 0;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    padding: 8rem 5rem 3rem 10rem;
+    justify-content: center;
+}
+
+.image-container {
+    margin-top: 5rem;
+    width: 100%;
+}
+
+.image-buy {
+    width: 100%;
+}
+
+.text-title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.text-description {
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+    line-height: 150%;
+    margin-bottom: 2rem;
+    text-align: justify;
+}
+
+.item-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.item-icon {
+    padding-right: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.item-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Inter', sans-serif;
+    color: var(--black);
+    text-align: start;
+}
+
+.title-item {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+
+}
+.desc-item {
+    font-size: 1rem;
+    line-height: 150%;
+}
+
+.role {
+    padding-bottom: 2rem;
+    gap:1rem;
+}
+
+/* Problem */
+
+.problem {
+    background-color: var(--jet);
+    padding: 6rem 8rem;
+}
+
+.problem-1 {
+    background-color: var(--jet);
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 8rem;
+}
+
+.problem-container {
+    padding: 2rem 2rem;
+    border-radius: 50px;
+    background: rgba(0, 0, 0, 0.46);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    color:var(--white);
+}
+
+.problem-title {
+    font-family: 'Inter', sans-serif;
+    letter-spacing: .2rem;
+    font-weight: 200;
+    margin-bottom: 1.5rem;
+}
+
+.problem-desc {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+.image-problem-container {
+    width: 50%;
+    justify-content: center;
+    display: flex;
+}
+
+.image-problem {
+    width: 60%;
+}
+
+.text-problem-container {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 8rem;
+}
+
+.description {
+    padding-left: 8rem;
+    padding-right: 8rem;
+    color: var(--white);
+    line-height: 150%;
+}
+
+
+/* Solution */
+
+.text-container-1 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 2rem 5rem 10rem;
+    justify-content: center;
+}
+
+.image-container-1 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+}
+
+.image-financial {
+    width: 60%;
+}
+
+.text-container-2 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 8rem 5rem 0rem;
+    justify-content: center;
+}
+
+.text-container-3 {
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 5rem 5rem 5rem;
+    justify-content: center;
+}
+
+.image-pill {
+    width: 70%;
+}
+
+.image-kyc {
+    width: 100%;
+}
+
+.DPG {
+    background-color: var(--black);
+    display: flex;
+}
+.DPG-container {
+    color: var(--white);
+    padding: 5rem 8rem;
+}
+
+.CS-container {
+    color: var(--white);
+    padding: 5rem 8rem;
+    text-align: center;
+}
+
+.problem-desc-3 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+

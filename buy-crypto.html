@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Hojas de estilo -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/stylesheet/buy-crypto.css"
+    />
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css" />
+    <link rel="stylesheet" href="./assets/stylesheet/index.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/tablet.css"
+      media="screen and (min-width: 760px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/desktop.css"
+      media="screen and (min-width: 980px)"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/ae0fd6f99f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container--loader">
+      <div class="loader"></div>
+    </div>
+
+    <header class="header">
+      <a href="index.html"><img
+        src="./assets/images/logo-s.svg"
+        alt="Logo Portafolio"
+        class="logo__header"
+      />
+    </a>
+
+      <nav class="nav_menu not-active">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about" data-section="menu" data-value="item2"
+          >About</a
+        >
+        <a
+          href="index.html#work"
+          data-section="menu"
+          data-value="item5"
+          class="active"
+          >Work</a
+        >
+        <a href="index.html#contact" data-section="menu" data-value="item6"
+          >Contact</a
+        >
+
+        <!-- Idiomas de la página -->
+        <div id="flags" class="flags">
+          <div class="flags__item" data-language="en">
+            <img src="./assets/images/icon-en.png" alt="Inglés/English" />
+          </div>
+          <div class="flags__item" data-language="es">
+            <img src="./assets/images/icon-spain.png" alt="Español/Spain" />
+          </div>
+        </div>
+      </nav>
+
+      <div id="button" class="btn not-active">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+      <!--Buy crypto overview-->
+      <section>
+        <div class="flex-container">
+          <div class="item-buy text-container">
+            <h1 class="text-title">Buy cryptocurrencies</h1>
+            <p class="text-description">
+              In an effort to push Xcapit in the direction of creating lasting
+              social and economic impact, rather than just another virtual
+              wallet, we reimagined the purchase flow to match this vision. This
+              new design, the culmination of a new version of Xcapit's
+              self-custodied opensource wallet, received recognition as a
+              "Digital Public Good" in June 2022.
+            </p>
+            <div class="flex-container role">
+              <div class="item-buy item-text">
+                <p class="title-item">MY ROLE</p>
+                <p class="desc-item">Responsible for redesign, discovery and ideation, 
+                  user research, interaction design and prototype.</p>
+              </div>
+              <div class="item-buy item-text">
+                <p class="title-item">TEAM</p>
+                <p class="desc-item">Florencia Cuevas, Head of Product Design.<br />
+                  Franco Cuzari, Product Designer.</p>
+              </div>
+            </div>
+
+            <div class="item-container">
+              <div class="item-icon">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+              </div>
+              <div class="item-text">
+                <p class="title-item">STATUS</p>
+                <p class="desc-item">100% implemented</p>
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="item-icon">
+                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+              </div>
+              <div class="item-text">
+                <p class="title-item">TESTS PERFORMED</p>
+                <p class="desc-item">Heuristic analysis, A/B tests</p>
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="item-icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+              <div class="item-text">
+                <p class="title-item">BENCHMARK</p>
+                <p class="desc-item">+4 Similar applications</p>
+              </div>
+            </div>
+          </div>
+          <div class="item-buy image-container">
+            <img
+              decoding="async"
+              class="image-buy"
+              src="./assets/images/buy-crypto-main-1.svg"
+              alt="buy crypto"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!--Problem-->
+      <section class="problem">
+        <div class="flex-container problem-container">
+          <div class="item-buy text-problem-container">
+            <p class="problem-title"> THE PROBLEM</p>
+            <p class="problem-desc">Participation in the purchase of cryptocurrencies through the
+              Xcapit wallet was low, users initiated a purchase transaction
+              but failed to complete it. How could we improve the purchase
+              experience to make it more dynamic and simpler?</p>
+          </div>
+          <div class="item-buy image-problem-container">
+            <img
+            decoding="async"
+            class="image-problem"
+            src="./assets/images/problem-statement.svg"
+            alt="buy crypto"
+          />
+          </div>
+          <div>
+            
+          </div>
+        </div>
+      </section>
+
+       <!--Problem description-->
+       <section class="problem-1">
+        <p class="problem-desc description">
+          We wanted to understand why users when initiating a cryptocurrency
+          purchase transaction abandoned the process halfway through. Through
+          conversations, data and research, it became clear that there were
+          incorrect assumptions and misaligned expectations about user
+          behaviour. For us, there was not just one problem, but many - how
+          users interacted with and perceived the purchase process.<br />
+          <br />
+          <b>01. Data request by external suppliers.</b> <br />
+          The procurement process involved integration with suppliers external
+          to Xcapit that required user data to complete transactions. This
+          generated doubts among users as to why personal data was requested
+          if it was a decentralised wallet.<br />
+          <br />
+          <b
+            >02. Confusing KWC process or request for verification
+            information.</b
+          ><br />
+          Unnecessary data was requested and not required by the provider for
+          validation and the process was confusing for users.<br />
+          <br />
+          <b>03. Poor follow-up.</b><br />
+          Users wanted to know the progress of their validation process and
+          the status of their cryptocurrency purchases.
+        </p>
+      </div>
+    </section>
+
+      <!--Solutions-->
+    <section>
+      <div class="flex-container">
+        <div class="item-buy text-container-1">
+          <h1 class="text-title">Reducing access barriers to financial freedom</h1>
+          <p class="text-description">
+            We had a message to drive home: Xcapit is a self-custodial, 
+              open source, decentralised wallet. Our vision for the new flow of cryptocurrency 
+              purchases allowed users to transform fiat money into crypto more easily. The 
+              redesign allowed us to scale the wallet and focus on making the purchase 
+              experience more user-friendly, reducing unnecessary steps and making the 
+              identity validation process required by external providers more transparent.
+          </p>
+        </div>
+          <div class="item-buy image-container-1">
+          <img
+            decoding="async"
+            class="image-financial"
+            src="./assets/images/financial-freedom.svg"
+            alt="buy crypto"
+          />
+        </div>
+      </div>
+    </section>
+    <section>
+      <div class="flex-container">
+        <div class="item-buy image-container-1">
+          <img
+            decoding="async"
+            class="image-financial"
+            src="./assets/images/home purchase.svg"
+            alt="buy crypto"
+          />
+        </div>
+        <div class="item-buy text-container-2">
+          <h1 class="text-title">New purchase homepage</h1>
+          <p class="text-description">
+            To provide users with quick information about what is happening with their 
+            purchases and to keep them informed about the status of their validation process, 
+            we introduced a new shopping homepage, where the user can not only visualise 
+            the purchases they are making, but also the status of their validation process.</p>
+            <p class="text-description"><b>SOLUTIONS:</b><br>
+              Validation process status management.<br>
+              History of purchases made.
+            </p>
+          </div>
+       
+      </div>
+    </section>
+    <section>
+      <div class="flex-container">
+        <div class="item-buy text-container-1">
+          <h1 class="text-title">Transparency in the request for information</h1>
+          <p class="text-description">
+            In order to clear up doubts about the information requested by external 
+            suppliers, an informative modal was incorporated before starting the 
+            purchasing process and emphasis was placed on visually distinguishing 
+            the moments in which the user is operating with the Xcapit wallet and 
+            with the supplier.
+          </p>
+          <p class="text-description"><b>SOLUTIONS:</b><br>
+            Informative modal and updated FAQs.<br>
+            Visual separation for the user to identify who they are trading with.
+          </p>
+        </div>
+          <div class="item-buy image-container-1">
+          <img
+            decoding="async"
+            class="image-pill"
+            src="./assets/images/pill.svg"
+            alt="buy crypto"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="flex-container">
+        <div class="item-buy image-container-1">
+          <img
+            decoding="async"
+            class="image-kyc"
+            src="./assets/images/kyc.svg"
+            alt="buy crypto"
+          />
+        </div>
+        <div class="item-buy text-container-3">
+          <h1 class="text-title">Simplification of the KYC process</h1>
+          <p class="text-description">
+            The process was divided into two stages: a data request stage, 
+            where only the information required by the supplier is requested, 
+            and an identity verification stage, where the user's identity is 
+            validated. This separation of tasks gave the user an order to follow 
+            and a better understanding.  In addition, the possibility of being 
+            able to continue with the next stage at a later date without losing 
+            the information registered up to that point was incorporated.</p>
+            <p class="text-description"><b>SOLUTIONS:</b><br>
+            Creation of an intermediate progress screen.<br>
+            Possibility of continuing the process later.
+            </p>
+          </div>
+       
+      </div>
+    </section>
+    <section class="DPG">
+      <div class="DPG-container">
+        <p class="problem-title"> DIGITAL PUBLIC GOOD</p>
+            <p class="problem-desc problem-desc-1">It is truly impressive to have been part of a 
+              project that works every day to achieve financial inclusion to reduce 
+              inequality and ensure that no one is left behind, especially in 
+              developing countries and vulnerable populations. <br>
+              Being recognised as a Digital Public Good increase the visibility, 
+              support and prominence of open projects that have the potential to 
+              address global challenges.
+              </p>
+      </div>
+    </section>
+    <section style="background-color: var(--eerie-black);">
+      <div class="CS-container">
+        <p class="problem-title"> NEXT CASE STUDY</p>
+            <p class="problem-desc-3">
+              Cryptocurrency swap
+              </p>
+
+              <a
+              href="swap-crypto.html"
+            >
+              <button
+                class="cv_button"
+                data-section="home"
+                data-value="cv_button"
+              >
+                READ CASE STUDY
+              </button>
+            </a>
+      </div>
+    </section>
+
+    </main>
+    <footer>
+      <div class="contianer--footer">
+        <div class="container_redes-footer">
+          <a
+            href="https://www.linkedin.com/in/lucilascherr/"
+            target="_blank"
+          >
+            <img src="./assets/images/linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/luscherr" target="_blank">
+            <img src="./assets/images/github.svg" alt="GitHub" />
+          </a>
+          <a href="https://www.facebook.com/lu.scherr/" target="_blank">
+            <img src="./assets/images/facebook.svg" alt="Facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/luscherr/"
+            target="_blank"
+          >
+            <img src="./assets/images/instagram.svg" alt="Instagram">
+          </a>
+        </div>
+
+        <div class="container_text--footer">
+          <span>Copyright © | Coded by Lucila Scherr </span>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

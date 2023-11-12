@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Hojas de estilo -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/stylesheet/swap-crypto.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/stylesheet/buy-crypto.css"
+    />
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css" />
+    <link rel="stylesheet" href="./assets/stylesheet/index.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/tablet.css"
+      media="screen and (min-width: 760px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/desktop.css"
+      media="screen and (min-width: 980px)"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/ae0fd6f99f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container--loader">
+      <div class="loader"></div>
+    </div>
+
+    <header class="header">
+        <a href="index.html"><img
+            src="./assets/images/logo-s.svg"
+            alt="Logo Portafolio"
+            class="logo__header"
+          />
+        </a>
+
+      <nav class="nav_menu not-active">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about" data-section="menu" data-value="item2"
+          >About</a
+        >
+        <a
+          href="index.html#work"
+          data-section="menu"
+          data-value="item5"
+          class="active"
+          >Work</a
+        >
+        <a href="index.html#contact" data-section="menu" data-value="item6"
+          >Contact</a
+        >
+
+        <!-- Idiomas de la página -->
+        <div id="flags" class="flags">
+          <div class="flags__item" data-language="en">
+            <img src="./assets/images/icon-en.png" alt="Inglés/English" />
+          </div>
+          <div class="flags__item" data-language="es">
+            <img src="./assets/images/icon-spain.png" alt="Español/Spain" />
+          </div>
+        </div>
+      </nav>
+
+      <div id="button" class="btn not-active">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+      <!--Swap crypto overview-->
+      <section>
+        <div class="flex-container">
+          <div class="item-buy text-container">
+            <h1 class="text-title">Cryptocurrency swap</h1>
+            <p class="text-description">
+                Sending cryptocurrencies is one of the main operations that 
+                can be performed with the Xcapit wallet. The user can send 
+                both native and non-native tokens. However, it was an action 
+                that generated a lot of friction, since the fee that the user 
+                must pay for the transaction can only be paid with native tokens. 
+                I lead the implementation of the cryptocurrency exchange in order 
+                to expand the user's options for obtaining cryptocurrencies for 
+                different purposes.
+            </p>
+            <div class="flex-container role">
+              <div class="item-buy item-text">
+                <p class="title-item">MY ROLE</p>
+                <p class="desc-item">Lead design through the end-to-end process: 
+                    discovery, user research, requirements, design, testing, 
+                    support through to launch.</p>
+              </div>
+              <div class="item-buy item-text">
+                <p class="title-item">TEAM</p>
+                <p class="desc-item">Florencia Cuevas, Head of Product Design.<br>
+                    Franco Cuzari, Product Designer.<br>
+                    Maximiliano Nivoli, Technical Lead.<br>
+                    Martin Brunori, Developer.<br>
+                    Franco Schillage, Developer.
+                    </p>
+              </div>
+            </div>
+
+            <div class="item-container">
+              <div class="item-icon">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+              </div>
+              <div class="item-text">
+                <p class="title-item">STATUS</p>
+                <p class="desc-item">100% implemented</p>
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="item-icon">
+                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+              </div>
+              <div class="item-text">
+                <p class="title-item">TESTS PERFORMED</p>
+                <p class="desc-item">Heuristic analysis, moderated testing</p>
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="item-icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+              <div class="item-text">
+                <p class="title-item">BENCHMARK</p>
+                <p class="desc-item"> +6 Similar applications</p>
+              </div>
+            </div>
+          </div>
+          <div class="item-buy image-container">
+            <img
+              decoding="async"
+              class="image-buy"
+              src="./assets/images/swap-overview.svg"
+              alt="buy crypto"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="problem">
+        <div class="flex-container problem-container">
+          <div class="item-buy text-problem-container text-problem-container-s">
+            <p class="problem-title"> THE PROBLEM</p>
+            <p class="problem-desc problem-desc-s">Xcapit from the beginning allowed both native 
+                and non-native tokens to be sent and for this the user had to pay 
+                a fee that could only be paid with tokens native to the network on 
+                which the sending was taking place. For our users, sending crypto 
+                was simply sending crypto, but we kept getting feedback that the 
+                process of obtaining native tokens to pay the fee was a hassle. 
+                How could we simplify obtaining cryptocurrencies for different 
+                purposes?</p>
+          </div>
+          <div class="item-buy image-problem-container">
+            <img
+            decoding="async"
+            class="image-problem"
+            src="./assets/images/swap-problem.svg"
+            alt="buy crypto"
+          />
+          </div>
+          <div>
+            
+          </div>
+        </div>
+      </section>
+      <!--Problem description-->
+      <section class="problem-1">
+        <p class="problem-desc description" style="text-align: justify;">
+            The experience, which differed depending on the type of token to be 
+            sent, combined with the impossibility of obtaining the token needed 
+            to complete the transaction, was difficult to handle. Knowing this, 
+            we took the opportunity to incorporate a new option to obtain 
+            cryptocurrencies not only to be able to make payments and shipments 
+            in specific currencies, but also to cover investment fees or protocols, 
+            or simply exchange a token for holding.<br />
+          <br />
+          The cryptocurrency exchange allows you to trade between cryptocurrencies 
+          within the same blockchain.  Historically, users could only make 
+          transactions on the wallet if they had the native currency to pay the fees.
+        </p>
+      </div>
+    </section>
+
+     <!--Solutions-->
+     <section>
+        <div class="flex-container">
+          <div class="item-buy text-container-1">
+            <h1 class="text-title">Performing a cryptocurrency swap</h1>
+            <p class="text-description" >
+                The main feature of this project was to allow users to exchange 
+                cryptocurrencies. This supported different use cases, for example, 
+                facilitating transfers for people who prefer to receive money in a 
+                specific currency, avoiding the friction of having to manually 
+                connect to other platforms to analyse the suitability of fees before 
+                converting tokens, and switching between products with different 
+                levels of risk or different investment strategies. It is currently 
+                possible to swap on the ERC20, Polygon and BSC networks.<br>
+                <br>
+                A change that resulted in the optimisation of other operations 
+                within the app, such as cryptocurrency transfers. Previously, 
+                users had to resort to other apps, if they did not have a native 
+                token, to obtain it and carry out the operation. Being able to 
+                exchange cryptocurrencies allows the entire process to be carried 
+                out without the need for external support.
+            </p>
+          </div>
+            <div class="item-buy image-container-1">
+            <img
+              decoding="async"
+              class="image-swap-1"
+              src="./assets/images/swap-1.svg"
+              alt="buy crypto"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <div class="flex-container">
+          <div class="item-buy image-container-1">
+            <img
+              decoding="async"
+              class="image-financial"
+              src="./assets/images/swap-2.svg"
+              alt="buy crypto"
+            />
+          </div>
+          <div class="item-buy text-container-2">
+            <h1 class="text-title">First asynchronous flow</h1>
+            <p class="text-description">
+                One of the challenges was for the swap to take place asynchronously. 
+                To achieve this, I made sure that the flow allowed the user to continue 
+                operating in the wallet at the same time as the swap was being processed 
+                on the blockchain. At the end of the transaction, the user would be notified 
+                whether it was successful or not. This way, the user is not limited to waiting 
+                for processing times on the blockchain to continue using the wallet.</p>
+            </div>
+         
+        </div>
+      </section>
+
+      <section class="problem-1" style="padding-top: 3rem;">
+        <p class="problem-title problem-s"> RESEARCH</p>
+        <p class="problem-desc description" style="text-align: justify;">
+            A thorough study of our competitors showed me that Xcapit was 
+            lagging behind in several aspects. We were catching up. As a result, 
+            users were completing their transactions in other applications, but 
+            only using xcapit for investing. From interviews and user surveys it 
+            became clear that there were major weaknesses in the Xcapit wallet:<br />
+          <br />
+        </p>
+        <ul class="problem-desc description" style="margin-left: 4rem; text-align: justify;">
+            <li>Zero or insufficient native token balance was forced to buy that 
+                token while having non-native token from the same network 
+                to leverage.</li>
+            <li>Too much back and forth.</li>
+            <li>Not possible to take advantage of investment opportunities quickly 
+                if you don't have balance of that token.</li>
+            <li>Users can't continue operating until the transaction is processed 
+                on the blockchain.</li>
+          </ul>
+      </div>
+    </section>
+
+    <section style="padding-top: 3rem;">
+        <div class="flex-container">
+          <div class="item-buy text-container-1">
+            <h1 class="text-title" >Opportunity</h1>
+            <p class="text-description">
+                This project was not only important because it was one of the main 
+                requests we kept hearing from customers, but it also brought 
+                tremendous value to the business. We saw the exchange operation 
+                and related functions as a way to increase user engagement, maintain 
+                investments (and users) in Xcapit and meet market demand.
+                We had the opportunity to be a wallet that solved real problems, 
+                unlocked access and enabled mass adoption of decentralised finance. 
+                We prioritised a few key features that would be valuable and 
+                feasible, which would make the wallet more dynamic:
+            </p>
+            <p class="text-description">
+                Crypto-asset swapping.<br>
+                Asynchronous transaction flow to avoid blockchain processing times.<br>
+                Receiving notifications to be informed whether the transaction was successful or not.
+              </p>
+          </div>
+            <div class="item-buy image-container-1">
+            <img
+              decoding="async"
+              class="image-s-3"
+              src="./assets/images/swap-3.svg"
+              alt="buy crypto"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section style="padding-top: 5rem;">
+        <div class="flex-container">
+          <div class="item-buy image-container-1">
+            <img
+              decoding="async"
+              class="image-financial"
+              src="./assets/images/swap-4.svg"
+              alt="buy crypto"
+            />
+          </div>
+          <div class="item-buy text-container-2">
+            <h1 class="text-title">Exploration and iteration</h1>
+            <p class="text-description">
+                Initially, I explored the different ways in which the user could 
+                perform a swap: from the home screen, from the screen of the 
+                operation they are trying to perform and from the token detail. 
+                I also explored the different scenarios in which a swap could occur 
+                and the types of swaps: between two tokens within the same network, 
+                between two tokens from different networks. As part of my process, 
+                I detailed each flow and weighed the pros and cons of each.<br>
+                <br>
+                While the need to swap between two tokens of different networks was 
+                very likely, it was not technically feasible with the times we had. 
+                We focused on intra-network tokens swaps and would learn from them 
+                to implement bridges in the future.
+            </p>
+            <p class="text-description"><b>Swapping in progress</b><br>
+                Part of this project also took into account the whole experience 
+                of asynchrony. The swap and notifications had to fit within 
+                this system.  Every state of the transaction and interaction had 
+                to be taken into account to keep the user informed.
+            </p>
+            <p class="text-description"><b>Testing</b><br>
+                We tested initial concepts with users to make sure we were on the 
+                right track, before moving the flow into development.
+            </p>
+            </div>
+         
+        </div>
+      </section>
+
+      <section class="problem-1" style="padding-top: 3rem;">
+        <p class="problem-title problem-s"> RESULT</p>
+        <p class="problem-desc description" style="text-align: justify;">
+            It was a really exciting and fun project for me, as it provides real 
+            value, involved a lot of research and detailed interaction work. I 
+            learnt some important conclusions from this project related to products 
+            and business processes.<br />
+          <br />
+        </p>
+        <br />
+        <p class="problem-desc description" style="text-align: justify;"><b>How to adapt to changing requirements</b><br>
+            New timelines, resource issues and reprioritisation meant that the 
+            scope of the project changed. I had to adapt to these changes and 
+            still deliver the best design on time with tight deadlines.<br>
+        </p>
+        <br />
+        <p class="problem-desc description" style="text-align: justify;"><b>Always strive for a good UX</b><br>
+            I had to work under very strict technical constraints, but I still fight for what I believe is essential 
+            to have a good user experience. <br>
+        </p>
+        <br />
+        <p class="problem-desc description" style="text-align: justify;"><b>Don't over-promise, don't under-deliver</b><br>
+            I learned to define a true MVP versus something that simply can't be used and therefore can't be shipped.
+            <br>
+        </p>
+        <br />
+        <p class="problem-desc description" style="text-align: justify;"><b>Choose what we won't do</b><br>
+            There were many excellent use cases that we were able to address with a broad set of functions. However, 
+            each of them was costly or unrealistic. I had to learn to determine where the 
+            real value was. <br>
+        </p>
+
+        
+      </div>
+    </section>
+    <section style="background-color: var(--eerie-black);">
+        <div class="CS-container">
+          <p class="problem-title"> NEXT CASE STUDY</p>
+              <p class="problem-desc-3">
+                Investor test 
+                </p>
+  
+                <a
+                href="index.html"
+              >
+                <button
+                  class="cv_button"
+                  data-section="home"
+                  data-value="cv_button"
+                >
+                  COOMING SOON
+                </button>
+              </a>
+        </div>
+      </section>
+
+
+
+
+
+    </main>
+    <footer>
+        <div class="contianer--footer">
+          <div class="container_redes-footer">
+            <a
+              href="https://www.linkedin.com/in/lucilascherr/"
+              target="_blank"
+            >
+              <img src="./assets/images/linkedin.svg" alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/luscherr" target="_blank">
+              <img src="./assets/images/github.svg" alt="GitHub" />
+            </a>
+            <a href="https://www.facebook.com/lu.scherr/" target="_blank">
+              <img src="./assets/images/facebook.svg" alt="Facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com/luscherr/"
+              target="_blank"
+            >
+              <img src="./assets/images/instagram.svg" alt="Instagram">
+            </a>
+          </div>
+  
+          <div class="container_text--footer">
+            <span>Copyright © | Coded by Lucila Scherr </span>
+          </div>
+        </div>
+      </footer>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

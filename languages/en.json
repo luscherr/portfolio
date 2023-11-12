@@ -1,0 +1,53 @@
+{
+    "menu": {
+        "item2": "About",
+        "item3": "Skills",
+        "item4": "Training",
+        "item5": "Work",
+        "item6": "Contact"
+    },
+
+    "home": {
+        "home_text-1": "UX ENGINEER",
+        "home_text-3": "Front-End Web Developer",
+        "parrafo-info": "Statistics and programming student focused on Frontend Web Development. As a person who loves intuitive and aesthetically pleasing designs I seek to create projects that provide the best user experience.",
+        "cv_button": "Download CV",
+        "contact_button": "Let's talk"
+    },
+
+    "sobre-mi": {
+        "title": "About me",
+        "subtitle_sobreMi":"I'm Lucila Scherr an Argentinian UX Engineer exploring and living in Sydney Australia.",
+        "texto_sobreMi": "Frontend engineer with a design background who loves solving challenging problems. I’m specialized in the full interaction that users have with software, from its design to its development, as well as usability, performance, and accessibility.<br><br> Previously, I've moved between design and development in an innovative Argentinian startup and a tech company. <br><br> Curious by nature, I continually seek opportunities to expand my knowledge and devise innovative solutions that optimize both the user and developer experience. I love connecting with and understanding people. I get jazzed leading in-depth user research and brainstorming solutions. Collaboration and teamwork are my jam."
+    },
+
+    "habilidades": {
+        "title": "Skills"
+    },
+
+    "formacion": {
+        "title": "CAPAILITIES",
+        "formacion1": "UX & PRODUCT DESIGN",
+        "tiempo-formacion1": " User research & Testing <br>UX/UI design <br>End-to-end product design <br>Design systems / Interaction design <br>Wireframing / Prototyping",
+        "formacion2": "DEVELOPMENT",
+        "tiempo-formacion2": "Frontend development <br>HTML / CSS <br> (& CSS preprocessors) <br>JavaScript / TypeScript <br>Angular / React <br>Ionic / React Native <br>",
+        "formacion3": "Accounting for Commercial and Financial Transactions"
+    },
+
+    "proyectos": {
+        "title": "Projects",
+        "button_pro":"READ CASE STUDY  <i class='fa fa-chevron-right' aria-hidden='true'style='margin-left: 8px;'>",
+        "title-proyecto1": "Buy cryptocurrencies",
+        "info-proyecto1": "Enrich the shopping experience to make it more dynamic and simpler. Culmination of a new version that led to Xcapit being named a Digital Public Good.",
+        "title-proyecto2": "Cryptocurrency swap",
+        "info-proyecto2": "In order to expand users' options for obtaining cryptocurrencies and investing, I led the creation of the cryptocurrency exchange flow.",
+        "title-proyecto3": "Investor test",
+        "info-proyecto3": "In order to be able to recommend investment products already integrated with Xcapit to our users, the investor profile functionality was created."
+    },
+
+    "contacto": {
+        "title": "Let's talk",
+        "text": "SEND ME AN EMAIL",
+        "btn-enviar": "<i class='fa fa-paper-plane-o' aria-hidden='true'></i> SEND"
+    }
+}

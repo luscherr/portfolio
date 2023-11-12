@@ -1,0 +1,21 @@
+.text-problem-container-s {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 5rem 3rem 5rem 3rem;
+}
+
+.image-swap-1 {
+    width: 90%;
+}
+
+.problem-s {
+    margin-top: 3rem;
+    margin-left: 8rem;
+    color: var(--white);
+}
+
+.image-s-3 {
+    width: 100%;
+}

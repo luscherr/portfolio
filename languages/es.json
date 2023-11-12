@@ -1,0 +1,53 @@
+{
+    "menu": {
+        "item2": "Sobre mí",
+        "item3": "Habilidades",
+        "item4": "Formación",
+        "item5": "Proyectos",
+        "item6": "Contacto"
+    },
+
+    "home": {
+        "home_text-1": "UX ENGINEER",
+        "home_text-3": "Desarrolladora web Front-End",
+        "parrafo-info": "Estudiante de Estadistica y programación enfocada al Desarrollo Web Frontend. Como persona amante a los diseños intuitivos y estéticamente agradables busco crear proyectos que brinden la mejor experiencia para el usuario.",
+        "cv_button": "Descargar CV",
+        "contact_button": "Contacto"
+    },
+
+    "sobre-mi": {
+        "title": "Sobre mí",
+        "subtitle_sobreMi":"Soy Lucila Scherr una Ingeniera UX argentina explorando y viviendo en Sydney Australia.",
+        "texto_sobreMi": "Ingeniera Frontend con formación en diseño que le apasiona resolver problemas desafiantes. Estoy especializada en la interacción completa que los usuarios tienen con el software, desde su diseño hasta su desarrollo, así como también en usabilidad, rendimiento y accesibilidad. <br><br> Anteriormente, me he movido entre el diseño y el desarrollo en una innovadora startup argentina y en una empresa tecnológica. <br><br> Curiosa por naturaleza, busco continuamente oportunidades para ampliar mis conocimientos e idear soluciones innovadoras que optimicen tanto la experiencia del usuario como la del desarrollador. Me encanta conectar con la gente y entenderla. Me apasiona llevar a cabo investigaciones en profundidad sobre los usuarios e idear soluciones. La colaboración y el trabajo en equipo son lo mío."
+    },
+
+    "habilidades": {
+        "title": "Habilidades"
+    },
+
+    "formacion": {
+        "title": "HABILIDADES",
+        "formacion1": "DISEÑO DE PRODUCTO & UX",
+        "tiempo-formacion1": " User research & Testing <br>UX/UI design <br>End-to-end product design <br>Design systems / Interaction design <br>Wireframing / Prototyping",
+        "formacion2": "DESARROLLO",
+        "tiempo-formacion2": "Frontend development <br>HTML / CSS <br> (& CSS preprocessors) <br>JavaScript / TypeScript <br>Angular / React <br>Ionic / React Native <br>",
+        "formacion3": "Contabilización de Operaciones Comerciales y Financieras"
+    },
+
+    "proyectos": {
+        "title": "Proyectos",
+        "button_pro":"LEER CASO DE ESTUDIO  <i class='fa fa-chevron-right' aria-hidden='true'style='margin-left: 8px;'>",
+        "title-proyecto1": "Compra de criptomonedas",
+        "info-proyecto1": "Enriquecer la experiencia de compra para hacerla más dinámica y simple. Culminación de una nueva versión que llevó a Xcapit a ser nombrado un Bien Público Digital.",
+        "title-proyecto2": "Intercambio de criptomonedas",
+        "info-proyecto2": "Con el fin de ampliar las opciones de los usuarios a la hora de obtener criptomonedas e invertir, conduje la creación del flujo que permite intercambiarlas.",
+        "title-proyecto3": "Perfil del inversor",
+        "info-proyecto3": "Con el objetivo de poder recomendarle productos de inversion ya integrados con Xcapit a nuestros usuarios se creó la funcionalidad de perfil de inversor."
+    },
+
+    "contacto": {
+        "title": "Hablemos",
+        "text": "PONETE EN CONTACTO CONMIGO",
+        "btn-enviar": "<i class='fa fa-paper-plane-o' aria-hidden='true'></i> ENVIAR"
+    }
+}

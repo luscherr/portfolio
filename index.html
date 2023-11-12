@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Portafolio | Mariana Arias Desarrolladora Web"
+    />
+    <meta name="robots" content="index,follow" />
+    <meta http-equiv="content-language" content="en" />
+
+    <title>Lucila Scherr | UX Engineer</title>
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Hojas de estilo -->
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css" />
+    <link rel="stylesheet" href="./assets/stylesheet/index.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/tablet.css"
+      media="screen and (min-width: 760px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/desktop.css"
+      media="screen and (min-width: 980px)"
+    />
+
+    <!-- Fuentes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=PT+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/ae0fd6f99f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+  </head>
+
+  <body>
+    <div class="container--loader">
+      <div class="loader"></div>
+    </div>
+
+    <header class="header">
+      <a href="#home"><img
+        src="./assets/images/logo-s.svg"
+        alt="Logo Portafolio"
+        class="logo__header"
+      />
+    </a>
+
+      <nav class="nav_menu not-active">
+        <a href="#home" class="active">Home</a>
+        <a href="#about" data-section="menu" data-value="item2">About</a>
+        <a href="#work" data-section="menu" data-value="item5"
+          >Work</a
+        >
+        <a href="#contact" data-section="menu" data-value="item6">Contact</a>
+
+        <!-- Idiomas de la página -->
+        <div id="flags" class="flags">
+          <div class="flags__item" data-language="en">
+            <img src="./assets/images/icon-en.png" alt="Inglés/English" />
+          </div>
+          <div class="flags__item" data-language="es">
+            <img src="./assets/images/icon-spain.png" alt="Español/Spain" />
+          </div>
+        </div>
+      </nav>
+
+      <div id="button" class="btn not-active">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+
+    <main>
+      <!-- Home -->
+      <section class="home" id="home">
+        <div class="container_image-home" data-aos="zoom-in">
+          <div class="image-home">
+            <img
+              class="image_home"
+              src="./assets/images/image-home.svg"
+              alt="home"
+            />
+          </div>
+        </div>
+
+        <div class="home_info">
+          <div class="container_text-info">
+            <div class="item">
+            <p class="home_text-1" data-section="home" data-value="home_text-1">
+              UX ENGINEER </p>
+            </p>
+          </div>
+          <div>
+            <p class="home_text-2">Lucila Scherr</p>
+          </div>
+            <div>
+              <a
+                href=""
+                class="home_text-3 typewrite"
+                data-period="2000"
+                data-type='["Is a UX/UI designer", "Is a frontend engineer"]'
+              >
+                <span class="wrap"></span>
+              </a>
+            </div>
+          </div>
+
+
+          <div>
+            <!--    <p
+              class="home_text-3 text-type"
+              data-section="home"
+              data-value="home_text-3"
+            >
+              Desarrolladora web Front-End
+            </p> -->
+          </div>
+
+          <!-- <div class="container_parrafo-info">
+            <p data-section="home" data-value="parrafo-info">
+              Estudiante de Estadistica y programación enfocada al Desarrollo
+              Web Frontend. Como persona amante a los diseños intuitivos y
+              estéticamente agradables busco crear proyectos que brinden la
+              mejor experiencia para el usuario.
+            </p>
+          </div> -->
+
+          <div class="container_button">
+            <a
+              href="https://drive.google.com/file/d/1fb16YeSjBi0aoPypHgxxElITEdNChDMD/view?usp=sharing"
+              target="_blank"
+            >
+              <button
+                class="cv_button"
+                data-section="home"
+                data-value="cv_button"
+              >
+                Download CV
+              </button>
+            </a>
+            <a href="#contact">
+              <button
+                class="contact_button"
+                data-section="home"
+                data-value="contact_button"
+              >
+                Let's talk
+              </button>
+            </a>
+          </div>
+        </div>
+
+       <!--  <div class="links">
+          <a
+            href="https://www.linkedin.com/in/mariana-arias-montoya-b37a311a7/"
+            target="_blank"
+          >
+            <img
+              src="./assets/images/icon-linkedin.png"
+              alt="LinkedIn"
+              class="icon-linkedin"
+            />
+          </a>
+          <a href="https://github.com/mariasmoUN" target="_blank">
+            <img
+              src="./assets/images/icon-github.png"
+              alt="GitHub"
+              class="icon-github"
+            />
+          </a>
+          <a href="https://codepen.io/mariasmoUN" target="_blank">
+            <img
+              src="./assets/images/icon-codepen.png"
+              alt="CodePen"
+              class="icon-CodePen"
+            />
+          </a>
+          <a
+            href="https://www.instagram.com/mar.am0410/?next=%2F"
+            target="_blank"
+          >
+            <img
+              src="./assets/images/icon-instagram.png"
+              alt="Instagram"
+              class="icon-instagram"
+            />
+          </a>
+        </div> -->
+      </section>
+
+      <!-- Sobre mí -->
+      <section class="sobreMi" id="about">
+        <h1 data-section="sobre-mi" data-value="title" data-aos="fade-up">
+          About
+        </h1>
+
+        <div class="container_content-sobreMi" data-aos="fade-right">
+          <div class="container_texto-sobreMi">
+            <span class="title_sobreMi" data-section="sobre-mi"
+            data-value="subtitle_sobreMi">I'm Lucila Scherr an Argentinian UX Engineer exploring and living in Sydney, Australia.</span>
+            <span
+              class="texto_sobreMi"
+              data-section="sobre-mi"
+              data-value="texto_sobreMi"
+              >Frontend engineer with a design background who loves solving challenging problems. I’m specialized in the full interaction that users have with software, from its design to its development, as well as usability, performance, and accessibility.<br />
+              Previously, I've moved between design and development in an innovative Argentinian startup and a tech company.<br>
+              Curious by nature, I continually seek opportunities to expand my knowledge and devise innovative solutions that optimize both the user and developer experience. I love connecting with and understanding people. I get jazzed leading in-depth user research and brainstorming solutions. Collaboration and teamwork are my jam.</span
+            >
+          </div>
+
+          <picture class="container_image-sobreMi">
+            <img
+              class="image_sobreMi"
+              src="./assets/images/image-about.svg"
+              alt="about"
+            />
+          </picture>
+        </div>
+      </section>
+
+          <!-- Habilidades -->
+      <section class="formacion" id="formacion">
+        <h1 data-section="formacion" data-value="title" data-aos="fade-up">
+          CAPABILITIES
+        </h1>
+        <img
+        src="./assets/images/puntos.svg"
+        alt="Decoración puntos"
+        class="puntos1-habilidades"
+      />
+      <img
+        src="./assets/images/puntos.svg"
+        alt="Decoración puntos"
+        class="puntos2-habilidades"
+      />
+
+        <div class="cards_container--formacion">
+          <div
+            class="cards--formacion"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <img
+              class="logo-unal"
+              src="./assets/images/design-card.svg"
+              alt="Logo - Universidad Nacional de Colombia"
+            />
+            <div class="container_texto--formacion">
+              <p data-section="formacion" data-value="formacion1">
+                UX & PRODUCT DESIGN
+              </p>
+              <p data-section="formacion" data-value="tiempo-formacion1">
+                User research & Testing <br>
+              UX/UI design <br>
+              End-to-end product design <br>
+              Design systems / Interaction design <br>
+              Wireframing / Prototyping
+              </p>
+            </div>
+          </div>
+
+          <div
+            class="cards--formacion"
+            data-aos="fade-up"
+            data-aos-duration="500"
+          >
+            <img
+              class="logo-one"
+              src="./assets/images/development-card.svg"
+              alt="Logo - ONE: Oracle Next Education"
+            />
+            <div class="container_texto--formacion">
+              <p data-section="formacion" data-value="formacion2">
+                DEVELOPMENT
+              </p>
+              <p data-section="formacion" data-value="tiempo-formacion2">
+                Frontend development <br>
+                HTML / CSS <br>
+                (& CSS preprocessors) <br>
+                JavaScript / TypeScript <br>
+                Angular / React <br>
+                Ionic / React Native <br>
+              </p>
+            </div>
+          </div>
+
+          <!-- <div
+            class="cards--formacion"
+            data-aos="fade-down"
+            data-aos-easing="linear"
+            data-aos-duration="500"
+          >
+            <img
+              class="logo-sena"
+              src="./assets/images/sena-logo.png"
+              alt="Logo - SENA"
+            />
+            <div class="container_texto--formacion">
+              <p data-section="formacion" data-value="formacion3">
+                Contabilización de Operaciones Comerciales y Financieras
+              </p>
+              <p>2017 - 2018</p>
+            </div>
+          </div> -->
+        </div>
+      </section>
+
+      <!-- Proyectos -->
+      <section class="proyectos" id="work">
+        <h1 data-section="proyectos" data-value="title" data-aos="fade-up">
+          Case studies
+        </h1>
+
+        <div class="cards_container--proyectos">
+          <div
+            class="cards--proyectos card_JuegoAhorcado"
+            data-aos="zoom-in-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="container_imgCard--proyectos">
+              <img
+                src="./assets/images/buy-crypto.png"
+                alt="Proyecto: Juego del ahorcado"
+              />
+            </div>
+
+            <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto1">
+                Buy cryptocurrencies
+              </h2>
+              <p data-section="proyectos" data-value="info-proyecto1">
+                Enrich the shopping experience to make it more dynamic and simpler. 
+                Culmination of a new version that led to Xcapit being named a 
+                Digital Public Good.
+              </p>
+            </div>
+
+            <div class="container_btn--proyectos">
+              <!-- <a
+                href="https://mariasmoun.github.io/Juego-del-Ahorcado/"
+                target="_blank"
+              >
+                <button class="btn_demo">
+                  <img
+                    src="./assets/images/icon-demoProyecto.png"
+                    alt="Demostración"
+                  />DEMO
+                </button>
+              </a> -->
+
+              <a
+                href="buy-crypto.html"
+              >
+                <button class="btn_repo" data-section="proyectos" data-value="button_pro">
+                  READ CASE STUDY  <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left: 8px;"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="cards--proyectos card_portafolio"
+            data-aos="zoom-in-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="container_imgCard--proyectos">
+              <img
+                src="./assets/images/swap-crypto.png"
+                alt="Proyecto: Portafolio"
+              />
+            </div>
+
+            <div class="container_textCard--proyectos text-portafolio">
+              <h2 data-section="proyectos" data-value="title-proyecto2">
+                Cryptocurrency swap
+              </h2>
+              <p data-section="proyectos" data-value="info-proyecto2">
+                In order to expand users' options for obtaining cryptocurrencies 
+                and investing, I led the creation of the cryptocurrency exchange flow.
+              </p>
+            </div>
+
+            <div class="container_btn--proyectos">
+              <!-- <a href="#" target="_blank">
+                <button class="btn_demo">
+                  <img
+                    src="./assets/images/icon-demoProyecto.png"
+                    alt="Demostración"
+                  />DEMO
+                </button>
+              </a> -->
+
+              <a
+                href="swap-crypto.html"
+              >
+                <button class="btn_repo"data-section="proyectos" data-value="button_pro">
+                  READ CASE STUDY  <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left: 8px;"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="cards--proyectos card_encriptador"
+            data-aos="zoom-in-up"
+            data-aos-anchor-placement="center-bottom"
+          >
+            <div class="container_imgCard--proyectos">
+              <img
+                src="./assets/images/investor-test.png"
+                alt="Proyecto: Encriptador"
+              />
+            </div>
+
+            <div class="container_textCard--proyectos">
+              <h2 data-section="proyectos" data-value="title-proyecto3">
+                Investor test
+              </h2>
+              <p data-section="proyectos" data-value="info-proyecto3">
+                In order to be able to recommend investment products already 
+                integrated with Xcapit to our users, the investor profile 
+                functionality was created.
+              </p>
+            </div>
+
+            <div class="container_btn--proyectos">
+              <!-- <a
+                href="https://mariasmoun.github.io/Encriptador-de-texto/"
+                target="_blank"
+              >
+                <button class="btn_demo">
+                  <img
+                    src="./assets/images/icon-demoProyecto.png"
+                    alt="Demostración"
+                  />DEMO
+                </button>
+              </a> -->
+
+              <a
+                
+              >
+                <button class="btn_repo" data-section="proyectos" data-value="button_pro">
+                   READ CASE STUDY <i class="fa fa-chevron-right" aria-hidden="true" style="margin-left: 8px;"></i>
+                </button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Contacto -->
+      <section class="contacto" id="contact">
+        <h1 data-section="contacto" data-value="title" data-aos="fade-up">
+          Let's talk
+        </h1>
+
+        <div
+          class="container_box--contacto"
+          data-aos="fade-up"
+          data-aos-anchor-placement="center-bottom"
+        >
+          <div class="container--contacto">
+            <div class="container_text--contacto">
+              <p data-section="contacto" data-value="text">
+                SEND ME AN EMAIL
+              </p>
+            </div>
+
+            <form
+              id="form"
+              class="form-contact"
+              name="contacto-portafolio"
+              netlify
+            >
+              <input
+                id="nombre"
+                type="text"
+                name="name"
+                placeholder="Name | Nombre"
+                required
+              />
+              <input
+                id="email"
+                type="email"
+                name="email"
+                placeholder="E-mail"
+                required
+              />
+              <input
+                id="asunto"
+                type="text"
+                name="affair"
+                placeholder="Subject | Asunto"
+                required
+              />
+              <textarea
+                id="mensaje"
+                cols="20"
+                rows="4"
+                name="message"
+                placeholder="Message | Mensaje"
+                required
+              ></textarea>
+
+              <div class="btn_form--contacto">
+                <button
+                  id="btn-enviar"
+                  type="submit"
+                  data-section="contacto"
+                  data-value="btn-enviar"
+                >
+                <i class="fa fa-paper-plane-o" aria-hidden="true"></i> SEND
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="contianer--footer">
+        <div class="container_redes-footer">
+          <a
+            href="https://www.linkedin.com/in/lucilascherr/"
+            target="_blank"
+          >
+            <img src="./assets/images/linkedin.svg" alt="LinkedIn" />
+          </a>
+          <a href="https://github.com/luscherr" target="_blank">
+            <img src="./assets/images/github.svg" alt="GitHub" />
+          </a>
+          <a href="https://www.facebook.com/lu.scherr/" target="_blank">
+            <img src="./assets/images/facebook.svg" alt="Facebook" />
+          </a>
+          <a
+            href="https://www.instagram.com/luscherr/"
+            target="_blank"
+          >
+            <img src="./assets/images/instagram.svg" alt="Instagram">
+          </a>
+        </div>
+
+        <div class="container_text--footer">
+          <span>Copyright © | Coded by Lucila Scherr </span>
+        </div>
+      </div>
+    </footer>
+
+    <div class="go-top-container">
+      <div class="go-top-button">
+        <i class="fas fa-chevron-up"></i>
+      </div>
+    </div>
+
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+  </body>
+</html>
