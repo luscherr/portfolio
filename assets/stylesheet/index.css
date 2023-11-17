@@ -270,7 +270,6 @@ span+span {
 }
 
 .container_image-home {
-    width: 65%;
     height: auto;
     display: flex;
     justify-content: center!important;

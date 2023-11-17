@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Librerías -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+
+    <!-- Hojas de estilo -->
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/stylesheet/buy-crypto.css"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="./assets/stylesheet/back-up.css"
+    />
+    <link rel="stylesheet" href="./assets/stylesheet/loader.css" />
+    <link rel="stylesheet" href="./assets/stylesheet/index.css" />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/tablet.css"
+      media="screen and (min-width: 760px)"
+    />
+    <link
+      rel="stylesheet"
+      href="./assets/stylesheet/desktop.css"
+      media="screen and (min-width: 980px)"
+    />
+
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/ae0fd6f99f.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Favicon -->
+    <link
+      rel="shortcut icon"
+      href="./assets/images/favicon.svg"
+      type="image/x-icon"
+    />
+  </head>
+  <body>
+    <div class="container--loader">
+      <div class="loader"></div>
+    </div>
+
+    <header class="header">
+      <a href="index.html"
+        ><img
+          src="./assets/images/logo-s.svg"
+          alt="Logo Portafolio"
+          class="logo__header"
+        />
+      </a>
+
+      <nav class="nav_menu not-active">
+        <a href="index.html#home">Home</a>
+        <a href="index.html#about" data-section="menu" data-value="item2"
+          >About</a
+        >
+        <a
+          href="index.html#work"
+          data-section="menu"
+          data-value="item5"
+          class="active"
+          >Work</a
+        >
+        <a href="index.html#contact" data-section="menu" data-value="item6"
+          >Contact</a
+        >
+
+        <!-- Idiomas de la página -->
+        <div id="flags" class="flags">
+          <div class="flags__item" data-language="en">
+            <img src="./assets/images/icon-en.png" alt="Inglés/English" />
+          </div>
+          <div class="flags__item" data-language="es">
+            <img src="./assets/images/icon-spain.png" alt="Español/Spain" />
+          </div>
+        </div>
+      </nav>
+
+      <div id="button" class="btn not-active">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </header>
+    <main>
+         <!--Buy crypto overview-->
+      <section>
+        <div class="flex-container">
+          <div class="item-buy text-container">
+            <h1 class="text-title">Backing up wallet</h1>
+            <p class="text-description">
+                In the self-custody model, the customer retains full custody 
+                (possession) of his assets at all times, using the service provider 
+                simply as an interface to conveniently manage his assets. Only the 
+                user has access to his funds. This makes it almost impossible for 
+                Xcapit, a government or anyone else to prevent you from using your 
+                funds exactly as you wish.<br>
+                <br>
+                Of course, with great power comes great responsibility! Since only 
+                you have access to your funds, you need to manage your wallet 
+                carefully.  This includes backing up your wallet and following best 
+                practices for password management.<br>
+                <br>
+                The user holds the private key associated with his public address. 
+                This, in our case, takes the form of a mnemonic phrase composed of 
+                12 randomly generated words.<br>
+                <br>
+                The backup process consisted of a copy of the recovery phrase or 
+                seed phrase. However, this process generated a lot of friction, as 
+                users either did not fully understand what the backup consisted of 
+                or did not complete the process due to the length and complexity of 
+                the process. I lead the redesign of the backup flow and the 
+                incorporation of one more option to protect the seed phrase.
+                
+            </p>
+            <div class="flex-container role">
+              <div class="item-buy item-text">
+                <p class="title-item">MY ROLE</p>
+                <p class="desc-item">Responsible for redesign, discovery and ideation, 
+                  user research, interaction design and prototype.</p>
+              </div>
+              <div class="item-buy item-text">
+                <p class="title-item">TEAM</p>
+                <p class="desc-item">Florencia Cuevas, Head of Product Design.<br />
+                  Franco Cuzari, Product Designer.</p>
+              </div>
+            </div>
+
+            <div class="item-container">
+              <div class="item-icon">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+              </div>
+              <div class="item-text">
+                <p class="title-item">STATUS</p>
+                <p class="desc-item">100% implemented</p>
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="item-icon">
+                <i class="fa fa-bar-chart" aria-hidden="true"></i>
+              </div>
+              <div class="item-text">
+                <p class="title-item">TESTS PERFORMED</p>
+                <p class="desc-item">Heuristic analysis, usability tests</p>
+              </div>
+            </div>
+            <div class="item-container">
+              <div class="item-icon">
+                <i class="fa fa-search" aria-hidden="true"></i>
+              </div>
+              <div class="item-text">
+                <p class="title-item">BENCHMARK</p>
+                <p class="desc-item">+5 Similar applications</p>
+              </div>
+            </div>
+          </div>
+          <div class="item-buy image-container tilt-in-fwd-br">
+            <img
+              decoding="async"
+              class="image-buy  "
+              src="./assets/images/home_backup.svg"
+              alt="buy crypto"
+            />
+          </div>
+        </div>
+      </section>
+       <!--Problem-->
+       <section class="problem" data-aos="fade-right">
+        <div class="flex-container problem-container" >
+          <div class="item-buy text-problem-container">
+            <p class="problem-title"> THE PROBLEM</p>
+            <p class="problem-desc">Backing up the wallet is one of the most 
+                important actions a user must do when creating a self-custodied 
+                wallet. How could we simplify the wallet backup process for users 
+            to protect their assets?</p>
+          </div>
+          <div class="item-buy image-problem-container">
+            <img
+            decoding="async"
+            class="image-problem"
+            src="./assets/images/problem_statement_1.svg"
+            alt="buy crypto"
+          />
+          </div>
+        </div>
+      </section>
+      <section class="problem-1">
+        <p class="problem-desc description">
+            Receiving queries about how to recover the wallet, coupled with 
+            several complaints about forgetting the seed phrase, made us realise 
+            that there were incorrect assumptions about the behaviour of our users. 
+            It was clear that there were several problems to solve:<br />
+          <br />
+          <b>01. Confusing seed phrase backup process.</b> <br />
+          Users were not completing the backup process because they did not 
+          understand exactly what they were doing or found it time consuming 
+          and confusing.<br />
+          <br />
+          <b
+            >02. Forgetting the seed phrase.</b
+          ><br />
+          Users who managed to complete the backup lost or forgot their recovery 
+          phrase, making it impossible to import the wallet in case they needed 
+          to recover it.<br />
+          <br />
+          <b>03. Poor reach.</b><br />
+          Users were poorly alerted to the importance of both backing up the wallet 
+          and the relevance of the seed phrase.
+        </p>
+      </div>
+    </section>
+     <!--Solutions-->
+     <section>
+        <div class="flex-container">
+          <div class="item-buy text-container-1">
+            <h1 class="text-title">Security first</h1>
+            <p class="text-description">
+                Our vision for the new recovery flow allowed users to back up 
+                the seed phrase in two simple steps while adding an extra layer 
+                of security by creating an encrypted wallet backup file in Google 
+                Drive.<br>
+                <br>
+                <b>Simplifying the seed phrase recovery process</b><br>
+                <br>
+                We resolved to implement the recovery phrase backup in two simple 
+                steps by clarifying what actions the user must perform in each step.
+            </p>
+          </div>
+            <div class="item-buy image-container-1" data-aos="fade-left">
+            <img
+              decoding="async"
+              class="image-security"
+              src="./assets/images/security_first.svg"
+              alt="buy crypto"
+            />
+          </div>
+        </div>
+      </section>
+      <section>
+        <div class="flex-container">
+          <div class="item-buy image-container-1" data-aos="fade-right">
+            <img
+              decoding="async"
+              class="image-security"
+              src="./assets/images/google.svg"
+              alt="buy crypto"
+            />
+          </div>
+          <div class="item-buy text-container-2">
+            <h1 class="text-title">Adding an extra layer of security</h1>
+            <p class="text-description">
+                A second layer of security was added by the possibility of creating an 
+                encrypted file in Google Drive that could be imported when the wallet needs 
+                to be recovered.  This option, like the backup of the seed phrase, is not 
+                mandatory and can be done at any time. However, users are advised that it is 
+                important to do so when creating the wallet.<br>
+            <br>
+            With this new option, users can recover their wallet in case of forgetting or losing 
+            the seed phrase.<br>
+            <br>
+            <b>More import options</b><br>
+            <br>
+            This change also has an impact on the recovery of the wallet, as the 
+            user is free to choose either method, as long as both backups have been 
+            completed.
+            </p>
+            </div>
+        </div>
+      </section>
+      <section>
+        <div class="flex-container">
+          <div class="item-buy text-container-1">
+            <h1 class="text-title">Follow-up of the completion of the backup process</h1>
+            <p class="text-description">
+                To promote the importance of backing up the wallet. Informative 
+                modals and a non-invasive reminder system have been incorporated 
+                to remind users to complete or back up their wallet.
+            </p>
+          </div>
+            <div class="item-buy image-container-1" data-aos="fade-right">
+            <img
+              decoding="async"
+              class="image-security"
+              src="./assets/images/informative.svg"
+              alt="buy crypto"
+            />
+          </div>
+        </div>
+      </section>
+      <section class="DPG">
+        <div class="DPG-container">
+          <p class="problem-title"> CONCLUSION</p>
+              <p class="problem-desc problem-desc-1">The success resulted in an 
+                increasing number of users creating backups of their wallets, 
+                which not only indicated an awareness of the importance of securing 
+                their assets, but also increased levels of engagement. For our users,
+                 the main objective of our team was to launch the redesigned backup 
+                 flow and the new option of backing up to an encrypted file so that 
+                 users could choose whichever way was easiest and quickest for them, 
+                 or both. Beyond that, there were higher level objectives for the 
+                 company: to increase conversion in the use of the Xcapit wallet 
+                 and to consolidate our fractured security paradigm into a 
+                 streamlined experience.
+                </p>
+        </div>
+      </section>
+
+      <section style="background-color: var(--eerie-black);">
+        <div class="CS-container">
+          <p class="problem-title"> NEXT CASE STUDY</p>
+              <p class="problem-desc-3">
+                Buy cryptocurrency 
+                </p>
+  
+                <a
+                href="buy-crypto.html"
+              >
+                <button
+                  class="cv_button"
+                  data-section="home"
+                  data-value="cv_button"
+                >
+                  READ CASE STUDY
+                </button>
+              </a>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+        <div class="contianer--footer">
+          <div class="container_redes-footer">
+            <a
+              href="https://www.linkedin.com/in/lucilascherr/"
+              target="_blank"
+            >
+              <img src="./assets/images/linkedin.svg" alt="LinkedIn" />
+            </a>
+            <a href="https://github.com/luscherr" target="_blank">
+              <img src="./assets/images/github.svg" alt="GitHub" />
+            </a>
+            <a href="https://www.facebook.com/lu.scherr/" target="_blank">
+              <img src="./assets/images/facebook.svg" alt="Facebook" />
+            </a>
+            <a
+              href="https://www.instagram.com/luscherr/"
+              target="_blank"
+            >
+              <img src="./assets/images/instagram.svg" alt="Instagram">
+            </a>
+          </div>
+  
+          <div class="container_text--footer">
+            <span>Copyright © | Coded by Lucila Scherr </span>
+          </div>
+        </div>
+      </footer>
+
+      <div class="go-top-container">
+        <div class="go-top-button">
+          <i class="fas fa-chevron-up"></i>
+        </div>
+      </div>
+
+    <!-- Mi script -->
+    <script src="./script.js"></script>
+    <!-- Archivo Js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Librería de animaciones -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
